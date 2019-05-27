@@ -16,6 +16,13 @@ import axios from 'axios'
 // Mock.bootstrap();
 import 'font-awesome/css/font-awesome.min.css'
 
+//文本框编辑器
+import VueQuillEditor from 'vue-quill-editor'
+import 'quill/dist/quill.core.css';
+import 'quill/dist/quill.snow.css';
+import 'quill/dist/quill.bubble.css';
+Vue.use(VueQuillEditor)
+
 Vue.use(ElementUI)
 Vue.use(VueRouter)
 Vue.use(Vuex)
